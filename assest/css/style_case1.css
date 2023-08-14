@@ -1,0 +1,117 @@
+div{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+body{
+    overflow: hidden;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+.box1{
+    background-color: crimson;
+
+}
+.box2 {
+    background-color: darkgreen;
+    left: 50%;
+}
+.box3 {
+    background-color: orange;
+    top: 50%;
+}
+.box4 {
+    background-color: deeppink;
+    top: 50%;
+    left: 50%;
+}
+.box5{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.circle{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+.circle1{
+    background-color: white;
+    left:calc(0% - 7vw);
+    top:calc(0% - 7vw);
+}
+.circle2{
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(0% - 7vw);
+}
+.circle3{
+    background-color: white;
+    right: calc(0% - 7vw);
+    top: calc(0% - 7vw);
+}
+.circle4{
+    background-color: white;
+    left: calc(0% - 8vw);
+    bottom: calc(0% - 8vw);
+
+}
+.abc1{
+    width: 15vw;
+    height: 15vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+}
+.bbb{
+    width: 9vw;
+    height: 9vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: red;
+
+}
+.bbb1{
+    width: 9vw;
+    height: 9vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle5{
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: calc(0% - 7vw);
+    background-color: white;
+}
+.circle6{
+    right:calc(0% - 7vw);
+    bottom:calc(0% - 7vw);
+}
