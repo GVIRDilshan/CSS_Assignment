@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 06</title>
+
+    <style>
+        body>div{
+            width: 100%;
+            height: 100vh;
+            border: 5px solid red;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+        }
+        body>div>div{
+            border: 2px solid green;
+            background-color: coral;
+        }
+
+        body>div>div{
+            border: 2px solid black;
+            background-color: coral;
+        }
+        body>div>div:first-child{
+            grid-column: 1/3;
+            background-color: lightgreen;
+        }
+        body>div>div:nth-child(2){
+            background-color: green;
+        }
+        body>div>div:nth-child(3){
+            grid-column: 4/4;
+            grid-row: 1/4;
+            background-color: red;
+        }
+        body>div>div:nth-child(4){
+            background-color: indigo;
+        }
+        body>div>div:nth-child(5){
+            background-color: fuchsia;
+        }
+
+        body>div>div:nth-child(6){
+            background-color: white;
+        }
+        body>div>div:nth-child(7){
+            background-color: chartreuse;
+        }
+        body>div>div:nth-child(8){
+            background-color: aquamarine;
+        }
+
+        body>div>div:last-child{
+            grid-column: 2/4;
+            background-color: blue;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+
+
+</div>
+
+</body>
+</html>
